@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA35B29A1825105E008D502F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B2991825105E008D502F /* Foundation.framework */; };
+		FA35B29C1825105E008D502F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B29B1825105E008D502F /* CoreGraphics.framework */; };
+		FA35B29E1825105E008D502F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B29D1825105E008D502F /* UIKit.framework */; };
+		FA35B2A41825105E008D502F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA35B2A21825105E008D502F /* InfoPlist.strings */; };
+		FA35B2A61825105E008D502F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2A51825105E008D502F /* main.m */; };
+		FA35B2AA1825105E008D502F /* ADDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2A91825105E008D502F /* ADDAppDelegate.m */; };
+		FA35B2AC1825105E008D502F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA35B2AB1825105E008D502F /* Images.xcassets */; };
+		FA35B2B31825105E008D502F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B2B21825105E008D502F /* XCTest.framework */; };
+		FA35B2B41825105E008D502F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B2991825105E008D502F /* Foundation.framework */; };
+		FA35B2B51825105E008D502F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA35B29D1825105E008D502F /* UIKit.framework */; };
+		FA35B2BD1825105E008D502F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA35B2BB1825105E008D502F /* InfoPlist.strings */; };
+		FA35B2BF1825105E008D502F /* EverpobreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2BE1825105E008D502F /* EverpobreTests.m */; };
+		FA35B2CA18251086008D502F /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2C918251086008D502F /* AGTCoreDataStack.m */; };
+		FA35B2CD18251094008D502F /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2CC18251094008D502F /* AGTCoreDataTableViewController.m */; };
+		FA35B2D218251307008D502F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2D018251307008D502F /* Model.xcdatamodeld */; };
+		FA35B2E118252EBF008D502F /* _AGTnote.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2DA18252EBF008D502F /* _AGTnote.m */; };
+		FA35B2E218252EBF008D502F /* _AGTnoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2DC18252EBF008D502F /* _AGTnoteBook.m */; };
+		FA35B2E318252EBF008D502F /* AGTnote.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2DE18252EBF008D502F /* AGTnote.m */; };
+		FA35B2E418252EBF008D502F /* AGTnoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2E018252EBF008D502F /* AGTnoteBook.m */; };
+		FA35B2E818255ABD008D502F /* ADDNotebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2E718255ABD008D502F /* ADDNotebookViewController.m */; };
+		FA35B2EB1825694C008D502F /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2EA1825694C008D502F /* UIViewController+Navigation.m */; };
+		FA35B2EF182570CD008D502F /* ADDNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35B2EE182570CD008D502F /* ADDNotesViewController.m */; };
+		FAA4345D18266BC200138020 /* ADDNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4345B18266BC200138020 /* ADDNoteViewController.m */; };
+		FAA4345E18266BC200138020 /* ADDNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4345C18266BC200138020 /* ADDNoteViewController.xib */; };
+		FAA4346218269D0D00138020 /* ADDPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4346018269D0D00138020 /* ADDPhotoViewController.m */; };
+		FAA4346318269D0D00138020 /* ADDPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4346118269D0D00138020 /* ADDPhotoViewController.xib */; };
+		FAA434661826C40200138020 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA434651826C40200138020 /* MapKit.framework */; };
+		FAA434681826C41000138020 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA434671826C41000138020 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA35B2B61825105E008D502F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA35B28E1825105E008D502F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA35B2951825105E008D502F;
+			remoteInfo = Everpobre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA35B2961825105E008D502F /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA35B2991825105E008D502F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA35B29B1825105E008D502F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA35B29D1825105E008D502F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA35B2A11825105E008D502F /* Everpobre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Everpobre-Info.plist"; sourceTree = "<group>"; };
+		FA35B2A31825105E008D502F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA35B2A51825105E008D502F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA35B2A71825105E008D502F /* Everpobre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Everpobre-Prefix.pch"; sourceTree = "<group>"; };
+		FA35B2A81825105E008D502F /* ADDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADDAppDelegate.h; sourceTree = "<group>"; };
+		FA35B2A91825105E008D502F /* ADDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADDAppDelegate.m; sourceTree = "<group>"; };
+		FA35B2AB1825105E008D502F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA35B2B11825105E008D502F /* EverpobreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverpobreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA35B2B21825105E008D502F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA35B2BA1825105E008D502F /* EverpobreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EverpobreTests-Info.plist"; sourceTree = "<group>"; };
+		FA35B2BC1825105E008D502F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA35B2BE1825105E008D502F /* EverpobreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverpobreTests.m; sourceTree = "<group>"; };
+		FA35B2C818251086008D502F /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		FA35B2C918251086008D502F /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		FA35B2CB18251094008D502F /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		FA35B2CC18251094008D502F /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		FA35B2D118251307008D502F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FA35B2D918252EBF008D502F /* _AGTnote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AGTnote.h; sourceTree = "<group>"; };
+		FA35B2DA18252EBF008D502F /* _AGTnote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AGTnote.m; sourceTree = "<group>"; };
+		FA35B2DB18252EBF008D502F /* _AGTnoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AGTnoteBook.h; sourceTree = "<group>"; };
+		FA35B2DC18252EBF008D502F /* _AGTnoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AGTnoteBook.m; sourceTree = "<group>"; };
+		FA35B2DD18252EBF008D502F /* AGTnote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTnote.h; sourceTree = "<group>"; };
+		FA35B2DE18252EBF008D502F /* AGTnote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTnote.m; sourceTree = "<group>"; };
+		FA35B2DF18252EBF008D502F /* AGTnoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTnoteBook.h; sourceTree = "<group>"; };
+		FA35B2E018252EBF008D502F /* AGTnoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTnoteBook.m; sourceTree = "<group>"; };
+		FA35B2E618255ABD008D502F /* ADDNotebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDNotebookViewController.h; path = Everpobre/ADDNotebookViewController.h; sourceTree = "<group>"; };
+		FA35B2E718255ABD008D502F /* ADDNotebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDNotebookViewController.m; path = Everpobre/ADDNotebookViewController.m; sourceTree = "<group>"; };
+		FA35B2E91825694C008D502F /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		FA35B2EA1825694C008D502F /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
+		FA35B2ED182570CD008D502F /* ADDNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDNotesViewController.h; sourceTree = "<group>"; };
+		FA35B2EE182570CD008D502F /* ADDNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDNotesViewController.m; sourceTree = "<group>"; };
+		FAA434591826615800138020 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settings.h; path = ../settings.h; sourceTree = "<group>"; };
+		FAA4345A18266BC200138020 /* ADDNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDNoteViewController.h; sourceTree = "<group>"; };
+		FAA4345B18266BC200138020 /* ADDNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDNoteViewController.m; sourceTree = "<group>"; };
+		FAA4345C18266BC200138020 /* ADDNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADDNoteViewController.xib; sourceTree = "<group>"; };
+		FAA4345F18269D0D00138020 /* ADDPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDPhotoViewController.h; sourceTree = "<group>"; };
+		FAA4346018269D0D00138020 /* ADDPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDPhotoViewController.m; sourceTree = "<group>"; };
+		FAA4346118269D0D00138020 /* ADDPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADDPhotoViewController.xib; sourceTree = "<group>"; };
+		FAA434641826BA1300138020 /* Model2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = Model2.xcdatamodel; sourceTree = "<group>"; };
+		FAA434651826C40200138020 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAA434671826C41000138020 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA35B2931825105E008D502F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA434681826C41000138020 /* CoreLocation.framework in Frameworks */,
+				FAA434661826C40200138020 /* MapKit.framework in Frameworks */,
+				FA35B29C1825105E008D502F /* CoreGraphics.framework in Frameworks */,
+				FA35B29E1825105E008D502F /* UIKit.framework in Frameworks */,
+				FA35B29A1825105E008D502F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA35B2AE1825105E008D502F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35B2B31825105E008D502F /* XCTest.framework in Frameworks */,
+				FA35B2B51825105E008D502F /* UIKit.framework in Frameworks */,
+				FA35B2B41825105E008D502F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA35B28D1825105E008D502F = {
+			isa = PBXGroup;
+			children = (
+				FA35B29F1825105E008D502F /* Everpobre */,
+				FA35B2EC18256985008D502F /* Categories */,
+				FA35B2E518252ED4008D502F /* Models */,
+				FA35B2CE1825109C008D502F /* Controllers */,
+				FA35B2CF182510AD008D502F /* CoredataStack */,
+				FA35B2B81825105E008D502F /* EverpobreTests */,
+				FA35B2981825105E008D502F /* Frameworks */,
+				FA35B2971825105E008D502F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA35B2971825105E008D502F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2961825105E008D502F /* Everpobre.app */,
+				FA35B2B11825105E008D502F /* EverpobreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA35B2981825105E008D502F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA434671826C41000138020 /* CoreLocation.framework */,
+				FAA434651826C40200138020 /* MapKit.framework */,
+				FA35B2991825105E008D502F /* Foundation.framework */,
+				FA35B29B1825105E008D502F /* CoreGraphics.framework */,
+				FA35B29D1825105E008D502F /* UIKit.framework */,
+				FA35B2B21825105E008D502F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA35B29F1825105E008D502F /* Everpobre */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2A81825105E008D502F /* ADDAppDelegate.h */,
+				FA35B2A91825105E008D502F /* ADDAppDelegate.m */,
+				FAA434591826615800138020 /* settings.h */,
+				FA35B2AB1825105E008D502F /* Images.xcassets */,
+				FA35B2A01825105E008D502F /* Supporting Files */,
+			);
+			path = Everpobre;
+			sourceTree = "<group>";
+		};
+		FA35B2A01825105E008D502F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2A11825105E008D502F /* Everpobre-Info.plist */,
+				FA35B2A21825105E008D502F /* InfoPlist.strings */,
+				FA35B2A51825105E008D502F /* main.m */,
+				FA35B2A71825105E008D502F /* Everpobre-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA35B2B81825105E008D502F /* EverpobreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2BE1825105E008D502F /* EverpobreTests.m */,
+				FA35B2B91825105E008D502F /* Supporting Files */,
+			);
+			path = EverpobreTests;
+			sourceTree = "<group>";
+		};
+		FA35B2B91825105E008D502F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2BA1825105E008D502F /* EverpobreTests-Info.plist */,
+				FA35B2BB1825105E008D502F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA35B2CE1825109C008D502F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2CB18251094008D502F /* AGTCoreDataTableViewController.h */,
+				FA35B2CC18251094008D502F /* AGTCoreDataTableViewController.m */,
+				FA35B2E618255ABD008D502F /* ADDNotebookViewController.h */,
+				FA35B2E718255ABD008D502F /* ADDNotebookViewController.m */,
+				FA35B2ED182570CD008D502F /* ADDNotesViewController.h */,
+				FA35B2EE182570CD008D502F /* ADDNotesViewController.m */,
+				FAA4345A18266BC200138020 /* ADDNoteViewController.h */,
+				FAA4345B18266BC200138020 /* ADDNoteViewController.m */,
+				FAA4345C18266BC200138020 /* ADDNoteViewController.xib */,
+				FAA4345F18269D0D00138020 /* ADDPhotoViewController.h */,
+				FAA4346018269D0D00138020 /* ADDPhotoViewController.m */,
+				FAA4346118269D0D00138020 /* ADDPhotoViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FA35B2CF182510AD008D502F /* CoredataStack */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2C818251086008D502F /* AGTCoreDataStack.h */,
+				FA35B2C918251086008D502F /* AGTCoreDataStack.m */,
+				FA35B2D018251307008D502F /* Model.xcdatamodeld */,
+			);
+			name = CoredataStack;
+			sourceTree = "<group>";
+		};
+		FA35B2E518252ED4008D502F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2D918252EBF008D502F /* _AGTnote.h */,
+				FA35B2DA18252EBF008D502F /* _AGTnote.m */,
+				FA35B2DB18252EBF008D502F /* _AGTnoteBook.h */,
+				FA35B2DC18252EBF008D502F /* _AGTnoteBook.m */,
+				FA35B2DD18252EBF008D502F /* AGTnote.h */,
+				FA35B2DE18252EBF008D502F /* AGTnote.m */,
+				FA35B2DF18252EBF008D502F /* AGTnoteBook.h */,
+				FA35B2E018252EBF008D502F /* AGTnoteBook.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FA35B2EC18256985008D502F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FA35B2E91825694C008D502F /* UIViewController+Navigation.h */,
+				FA35B2EA1825694C008D502F /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA35B2951825105E008D502F /* Everpobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA35B2C21825105E008D502F /* Build configuration list for PBXNativeTarget "Everpobre" */;
+			buildPhases = (
+				FA35B2921825105E008D502F /* Sources */,
+				FA35B2931825105E008D502F /* Frameworks */,
+				FA35B2941825105E008D502F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everpobre;
+			productName = Everpobre;
+			productReference = FA35B2961825105E008D502F /* Everpobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA35B2B01825105E008D502F /* EverpobreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA35B2C51825105E008D502F /* Build configuration list for PBXNativeTarget "EverpobreTests" */;
+			buildPhases = (
+				FA35B2AD1825105E008D502F /* Sources */,
+				FA35B2AE1825105E008D502F /* Frameworks */,
+				FA35B2AF1825105E008D502F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA35B2B71825105E008D502F /* PBXTargetDependency */,
+			);
+			name = EverpobreTests;
+			productName = EverpobreTests;
+			productReference = FA35B2B11825105E008D502F /* EverpobreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA35B28E1825105E008D502F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alejandro Delgado Diaz";
+				TargetAttributes = {
+					FA35B2B01825105E008D502F = {
+						TestTargetID = FA35B2951825105E008D502F;
+					};
+				};
+			};
+			buildConfigurationList = FA35B2911825105E008D502F /* Build configuration list for PBXProject "Everpobre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA35B28D1825105E008D502F;
+			productRefGroup = FA35B2971825105E008D502F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA35B2951825105E008D502F /* Everpobre */,
+				FA35B2B01825105E008D502F /* EverpobreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA35B2941825105E008D502F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4345E18266BC200138020 /* ADDNoteViewController.xib in Resources */,
+				FAA4346318269D0D00138020 /* ADDPhotoViewController.xib in Resources */,
+				FA35B2A41825105E008D502F /* InfoPlist.strings in Resources */,
+				FA35B2AC1825105E008D502F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA35B2AF1825105E008D502F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35B2BD1825105E008D502F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA35B2921825105E008D502F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35B2EF182570CD008D502F /* ADDNotesViewController.m in Sources */,
+				FA35B2CA18251086008D502F /* AGTCoreDataStack.m in Sources */,
+				FA35B2AA1825105E008D502F /* ADDAppDelegate.m in Sources */,
+				FA35B2EB1825694C008D502F /* UIViewController+Navigation.m in Sources */,
+				FA35B2D218251307008D502F /* Model.xcdatamodeld in Sources */,
+				FA35B2E818255ABD008D502F /* ADDNotebookViewController.m in Sources */,
+				FAA4345D18266BC200138020 /* ADDNoteViewController.m in Sources */,
+				FAA4346218269D0D00138020 /* ADDPhotoViewController.m in Sources */,
+				FA35B2CD18251094008D502F /* AGTCoreDataTableViewController.m in Sources */,
+				FA35B2E118252EBF008D502F /* _AGTnote.m in Sources */,
+				FA35B2A61825105E008D502F /* main.m in Sources */,
+				FA35B2E318252EBF008D502F /* AGTnote.m in Sources */,
+				FA35B2E418252EBF008D502F /* AGTnoteBook.m in Sources */,
+				FA35B2E218252EBF008D502F /* _AGTnoteBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA35B2AD1825105E008D502F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35B2BF1825105E008D502F /* EverpobreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA35B2B71825105E008D502F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA35B2951825105E008D502F /* Everpobre */;
+			targetProxy = FA35B2B61825105E008D502F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA35B2A21825105E008D502F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA35B2A31825105E008D502F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA35B2BB1825105E008D502F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA35B2BC1825105E008D502F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA35B2C01825105E008D502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA35B2C11825105E008D502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA35B2C31825105E008D502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				INFOPLIST_FILE = "Everpobre/Everpobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA35B2C41825105E008D502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				INFOPLIST_FILE = "Everpobre/Everpobre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA35B2C61825105E008D502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Everpobre.app/Everpobre";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EverpobreTests/EverpobreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA35B2C71825105E008D502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Everpobre.app/Everpobre";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Everpobre/Everpobre-Prefix.pch";
+				INFOPLIST_FILE = "EverpobreTests/EverpobreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA35B2911825105E008D502F /* Build configuration list for PBXProject "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA35B2C01825105E008D502F /* Debug */,
+				FA35B2C11825105E008D502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA35B2C21825105E008D502F /* Build configuration list for PBXNativeTarget "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA35B2C31825105E008D502F /* Debug */,
+				FA35B2C41825105E008D502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA35B2C51825105E008D502F /* Build configuration list for PBXNativeTarget "EverpobreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA35B2C61825105E008D502F /* Debug */,
+				FA35B2C71825105E008D502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA35B2D018251307008D502F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA434641826BA1300138020 /* Model2.xcdatamodel */,
+				FA35B2D118251307008D502F /* Model.xcdatamodel */,
+			);
+			currentVersion = FAA434641826BA1300138020 /* Model2.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA35B28E1825105E008D502F /* Project object */;
+}
